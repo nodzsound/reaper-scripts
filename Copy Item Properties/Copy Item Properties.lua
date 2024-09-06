@@ -1,5 +1,5 @@
 @description Copy Item Properties
-@version 1.0.0
+@version 1.0.1
 @author nodzsound
 @links 
      Website https://nico-dilz.com
@@ -25,6 +25,12 @@
 @provides
     [main] nodzsound-Copy_Item_Properties.lua
     [main] nodzsound-Paste_Item_Properties_ALL.lua
+    [main] nodzsound-Paste_Item_Properties_LENGTH.lua
+    [main] nodzsound-Paste_Item_Properties_PITCH.lua
+    [main] nodzsound-Paste_Item_Properties_PLAYRATE.lua
+    [main] nodzsound-Paste_Item_Properties_FADES.lua
+    [main] nodzsound-Paste_Item_Properties_FADE-IN.lua
+    [main] nodzsound-Paste_Item_Properties_FADE-OUT.lua
     [nomain] memory/memory.txt
 @changelog 
-     Created First Version of this script
+     Added scripts to paste single properties to target items
