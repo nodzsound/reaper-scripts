@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Repository Template" commit="9a65a61e6a41f5d0a230927b00105e36aa6add17">
+<index version="1" name="nodzsound - Reaper Scripts" commit="9a65a61e6a41f5d0a230927b00105e36aa6add17">
   <category name="Copy Item Properties">
     <reapack name="Copy Item Properties.lua" type="script" desc="Copy Item Properties">
       <metadata>
