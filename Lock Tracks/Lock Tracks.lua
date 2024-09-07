@@ -1,5 +1,5 @@
 @description Lock Tracks
-@version 0.0.1
+@version 1.0.0
 @author nodzsound
 @links 
      Website https://nico-dilz.com
@@ -12,5 +12,7 @@
  reapack@nico-dilz.com 
 @provides
     [main] nodzsound-Toggle_Track_Lock.lua
+    [main] nodzsound-Track_Lock_Off.lua
+    [main] nodzsound-Track_Lock_On.lua
 @changelog 
-     Set up the meta description
+     First Version of this script package
