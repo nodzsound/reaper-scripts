@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="nodzsound - Reaper Scripts" commit="8435b2c01d20a581e9c561d91bf065e8725f67a9">
-  <category name="Copy Item Properties">
-    <reapack name="Copy Item Properties.lua" type="script" desc="Copy Item Properties">
+<index version="1" name="nodzsound - Reaper Scripts" commit="f3d7dcc58c7042caef2d4255677d013c3dc1b217">
+  <category name="Lock Tracks">
+    <reapack name="Lock Tracks.lua" type="script" desc="Lock Tracks">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 This package offers scripts to copy and paste the item properties from one item to another. Supported properties are: length, pitch, playrate, fade-in, fade-out. You can copy properties from multiple items to multiple items. Here is how it works:\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 1)\tx360\tab num items to copy from = num items to paste to: This will result in a 1:1 transfer.\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 2)\tx360\tab num items to copy from < num items to paste to: This will cycle through the items to copy from until the last item is reached. Then it will start with item 1 again. Example: Copy From: 1|2|3|1|2|3| Copy to: 1|2|3|4|5|6|\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 3)\tx360\tab num items to copy from > num items to paste to: Same as 2, but not all items to copy from will be used. Example: Copy From: 1|2|3|4| Copy To: 1|2|\line I hopy that you find this package helpful. To report any bugs, please mail to: reapack@nico-dilz.com\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This package offers you the possibility to lock a selection of tracks including all of their items and takes. This should prevent involuntary edits to the respective tracks.\line I hope that you find this package helpful. To report any bugs, please mail to: reapack@nico-dilz.com\par}
 }
 ]]></description>
         <link rel="website" href="https://nico-dilz.com">Website</link>
         <link rel="website" href="https://www.instagram.com/nodzsound/">Instagram</link>
         <link rel="website" href="https://www.linkedin.com/in/nodzsound/">LinkedIn</link>
       </metadata>
-      <version name="1.0.0" author="nodzsound" time="2024-09-06T21:02:13Z">
-        <changelog><![CDATA[Created First Version of this script]]></changelog>
-        <source main="main">https://github.com/nodzsound/reaper-scripts/raw/9a65a61e6a41f5d0a230927b00105e36aa6add17/Copy%20Item%20Properties/Copy%20Item%20Properties.lua</source>
-        <source main="main" file="nodzsound-Copy_Item_Properties.lua">https://github.com/nodzsound/reaper-scripts/raw/9a65a61e6a41f5d0a230927b00105e36aa6add17/Copy%20Item%20Properties/nodzsound-Copy_Item_Properties.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_ALL.lua">https://github.com/nodzsound/reaper-scripts/raw/9a65a61e6a41f5d0a230927b00105e36aa6add17/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_ALL.lua</source>
-        <source file="memory/memory.txt">https://github.com/nodzsound/reaper-scripts/raw/9a65a61e6a41f5d0a230927b00105e36aa6add17/Copy%20Item%20Properties/memory/memory.txt</source>
+      <version name="0.0.1" author="nodzsound" time="2024-09-07T15:01:39Z">
+        <changelog><![CDATA[Set up the meta description]]></changelog>
+        <source main="main">https://github.com/nodzsound/reaper-scripts/raw/6d4badb0aba8fdbe957b74ae2a54530866173605/Lock%20Tracks/Lock%20Tracks.lua</source>
+        <source main="main" file="nodzsound-Toggle_Track_Lock.lua">https://github.com/nodzsound/reaper-scripts/raw/6d4badb0aba8fdbe957b74ae2a54530866173605/Lock%20Tracks/nodzsound-Toggle_Track_Lock.lua</source>
       </version>
-      <version name="1.0.1" author="nodzsound" time="2024-09-06T21:33:29Z">
-        <changelog><![CDATA[Added scripts to paste single properties to target items]]></changelog>
-        <source main="main">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/Copy%20Item%20Properties.lua</source>
-        <source main="main" file="nodzsound-Copy_Item_Properties.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Copy_Item_Properties.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_ALL.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_ALL.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_LENGTH.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_LENGTH.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_PITCH.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_PITCH.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_PLAYRATE.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_PLAYRATE.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_FADES.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_FADES.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_FADE-IN.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_FADE-IN.lua</source>
-        <source main="main" file="nodzsound-Paste_Item_Properties_FADE-OUT.lua">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/nodzsound-Paste_Item_Properties_FADE-OUT.lua</source>
-        <source file="memory/memory.txt">https://github.com/nodzsound/reaper-scripts/raw/631b10112a3c76978ad02ecf72456d0296433d35/Copy%20Item%20Properties/memory/memory.txt</source>
+      <version name="1.0.0" author="nodzsound" time="2024-09-07T15:09:03Z">
+        <changelog><![CDATA[First Version of this script package]]></changelog>
+        <source main="main">https://github.com/nodzsound/reaper-scripts/raw/c157b64ae469a5677e341ef0142e0b9c920c8ff3/Lock%20Tracks/Lock%20Tracks.lua</source>
+        <source main="main" file="nodzsound-Toggle_Track_Lock.lua">https://github.com/nodzsound/reaper-scripts/raw/c157b64ae469a5677e341ef0142e0b9c920c8ff3/Lock%20Tracks/nodzsound-Toggle_Track_Lock.lua</source>
+        <source main="main" file="nodzsound-Track_Lock_Off.lua">https://github.com/nodzsound/reaper-scripts/raw/c157b64ae469a5677e341ef0142e0b9c920c8ff3/Lock%20Tracks/nodzsound-Track_Lock_Off.lua</source>
+        <source main="main" file="nodzsound-Track_Lock_On.lua">https://github.com/nodzsound/reaper-scripts/raw/c157b64ae469a5677e341ef0142e0b9c920c8ff3/Lock%20Tracks/nodzsound-Track_Lock_On.lua</source>
       </version>
     </reapack>
   </category>
