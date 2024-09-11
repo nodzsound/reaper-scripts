@@ -4,7 +4,8 @@ local scriptPath = ({reaper.get_action_context()})[2]:match('^.+[\\//]')
 
 function run()
     local selectedItems = getSelectedMediaItems()
-    
+    local trackItemRelationTbl = buildItemTrackRelationTable(selectedItems)
+
 end
 
 -- Helper Functions...................................................
@@ -21,5 +22,18 @@ function getSelectedMediaItems()
   	return retTable, numItems
 end 
 
+function buildItemTrackRelationTable(itemList)
+    local retTable = {}
+    for i, item in pairs(itemList) do 
+        local track = reaper.GetMediaItemInfo_Value(item, 'P_TRACK')
+        local trackNumberStr = tostring(reaper.GetMediaTrackInfo_Value(track, 'IP_TRACKNUMBER'))
+
+        if retTable[trackNumberStr] == nil then
+            retTable[trackNumberStr] = {}
+        end
+        table.insert(retTable[trackNumberStr], item)
+    end
+    return retTable
+end
 -- Script Routine...................................................
 run()
