@@ -6,6 +6,10 @@ function run()
     local selectedItems = getSelectedMediaItems()
     local trackItemRelationTbl = buildItemTrackRelationTable(selectedItems)
 
+    for _, trackItems in  pairs(trackItemRelationTbl) do
+        if #trackItems < 2 then continue end
+        
+    end
 end
 
 -- Helper Functions...................................................
