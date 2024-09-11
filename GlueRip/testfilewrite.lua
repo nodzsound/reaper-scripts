@@ -9,12 +9,9 @@ function run()
     file:close()
 
     local track = reaper.GetSelectedTrack(0,0)
-    local retval, rppxml = reaper.GetTrackStateChunk(track, "", false)
-    rppxml = string.gsub(rppxml, "VOLPAN", "GLUERIP 157351\nVOLPAN")
-    reaper.ShowConsoleMsg(rppxml)
-    reaper.SetTrackStateChunk(track, rppxml, false)
-    retval, rppxml = reaper.GetTrackStateChunk(track, "", false)
-    reaper.ShowConsoleMsg(rppxml)
+    reaper.SetProjExtState(0, "nodzsound-GlueRip", "TestVar: ", "DUBjajajaj,1234-;IDU")
+    local reval, value = reaper.GetProjExtState(0, "nodzsound-GlueRip", "TestVar: ")
+    reaper.ShowConsoleMsg(value)
 end
 
 run()
