@@ -1,6 +1,7 @@
 -- @noindex
 
 local scriptPath = ({reaper.get_action_context()})[2]:match('^.+[\\//]')
+local appName = "GlueRip"
 
 function run()
     local selectedItems = getSelectedMediaItems() --Get Source Items
@@ -17,14 +18,17 @@ function run()
         itemsInArray = #sourceItemDataByTrack[trackIdx]
         sourceItemDataByTrack[trackIdx][itemsInArray + 1] = itemXml  
     end 
-    reaper.Main_OnCommand(40362)
+    reaper.Main_OnCommand(40362, 0)
     selectedItems = getSelectedMediaItems()
     for _, item in pairs(selectedItems) do 
-        trackIdx = getTrackIdxFromItem(item)
+        trackIdx = tostring(getTrackIdxFromItem(item))
         _, itemUid = reaper.GetSetMediaItemInfo_String(item, "GUID", "", false)
         --SetItemStateChunk
+        if sourceItemDataByTrack[trackIdx] ~= nil then
+            reaper.SetProjExtState(0, appName, itemUid, sourceItemDataByTrack[trackIdx])
+        end
     end
-
+    reaper.Main_SaveProject(0, false)
 end
 
 -- Helper Functions...................................................
