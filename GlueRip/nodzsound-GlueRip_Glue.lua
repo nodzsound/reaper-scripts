@@ -1,13 +1,15 @@
 -- @noindex
 
 local scriptPath = ({reaper.get_action_context()})[2]:match('^.+[\\//]')
+package.path = string.format('%s?.lua;', scriptPath)
 local appName = "GlueRip"
+local json = require('json')
 
 function run()
     local selectedItems = getSelectedMediaItems() --Get Source Items
     local sourceItemDataByTrack = {}
     local consolidatedData = {}
-    local trackIdx, itemsInArray, itemXml, itemUid
+    local trackIdx, itemsInArray, itemXml, itemUid, itemXmlString
 
     for _, item in pairs(selectedItems) do 
         trackIdx = tostring(getTrackIdxFromItem(item))
@@ -22,10 +24,11 @@ function run()
     selectedItems = getSelectedMediaItems()
     for _, item in pairs(selectedItems) do 
         trackIdx = tostring(getTrackIdxFromItem(item))
-        _, itemUid = reaper.GetSetMediaItemInfo_String(item, "GUID", "", false)
         --SetItemStateChunk
         if sourceItemDataByTrack[trackIdx] ~= nil then
-            reaper.SetProjExtState(0, appName, itemUid, sourceItemDataByTrack[trackIdx])
+            _, itemUid = reaper.GetSetMediaItemInfo_String(item, "GUID", "", false)
+            itemXmlString = json.encode(sourceItemDataByTrack[trackIdx])
+            reaper.SetProjExtState(0, appName, itemUid, itemXmlString)
         end
     end
     reaper.Main_SaveProject(0, false)
