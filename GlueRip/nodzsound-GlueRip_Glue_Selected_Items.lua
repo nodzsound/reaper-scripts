@@ -36,7 +36,7 @@ end
 
 -- Helper Functions...................................................
 ------------------------------------------------------------------
--- table itemList, int numItems = getSelectedItems()
+-- table itemList, int numItems = getSelectedMediaItems()
 -- Returns all selected items that are in the current project 
 -- and the amount of said items. 
 function getSelectedMediaItems()
