@@ -6,6 +6,7 @@ local appName = "GlueRip"
 local json = require('json')
 
 function run()
+    reaper.Undo_BeginBlock()
     local selectedItems = getSelectedMediaItems() --Get Source Items
     local sourceItemDataByTrack = {}
     local consolidatedData = {}
@@ -31,6 +32,7 @@ function run()
             reaper.SetProjExtState(0, appName, itemUid, itemXmlString)
         end
     end
+    reaper.Undo_EndBlock("GlueRip: Glue Selected Items", 0)
     reaper.Main_SaveProject(0, false)
 end
 
