@@ -14,5 +14,7 @@
 @provides
 [main] nodzsound-GlueRip_Glue_Selected_Items.lua
 [nomain] json.lua
+[nomain] LICENSE
+[nomain] README.md
 @changelog 
      Dev Version
