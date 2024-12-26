@@ -18,8 +18,8 @@ function run()
         local newItems = {}
         local posOffset, newPos
         _, xmlTable = reaper.GetProjExtState(0, appName, srcItemUid)
-
-        if xmlTable ~= nil then 
+        if xmlTable ~= "" then 
+            reaper.Undo_BeginBlock()
             xmlTable = json.decode(xmlTable)
             for x, srcXml in pairs(xmlTable) do 
                 newItems[#newItems + 1] = reaper.AddMediaItemToTrack(srcTrack)
@@ -35,6 +35,7 @@ function run()
 
             end
             reaper.DeleteTrackMediaItem(srcTrack, item)
+            reaper.Undo_EndBlock("GlueRip: Rip Item "..srcItemUid, 0)
         end
     end
 end
