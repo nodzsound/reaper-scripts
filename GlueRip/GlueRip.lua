@@ -13,6 +13,7 @@
  reapack@nico-dilz.com 
 @provides
 [main] nodzsound-GlueRip_Glue_Selected_Items.lua
+[main] nodzsound-GlueRip_Rip_Selected_Items.lua
 [nomain] json.lua
 [nomain] LICENSE
 [nomain] README.md
