@@ -15,7 +15,7 @@
 [main] nodzsound-GlueRip_Glue_Selected_Items.lua
 [main] nodzsound-GlueRip_Rip_Selected_Items.lua
 [nomain] json.lua
-[nomain] LICENSE
-[nomain] README.md
+[nomain] json_lua_License/LICENSE
+[nomain] json_lua_License/README.md
 @changelog 
      This is the first version of this script. It can carry out basic Glue and Rip functionalities
