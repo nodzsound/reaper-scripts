@@ -18,4 +18,4 @@
 [nomain] LICENSE
 [nomain] README.md
 @changelog 
-     Dev Version
+     This is the first version of this script. It can carry out basic Glue and Rip functionalities
