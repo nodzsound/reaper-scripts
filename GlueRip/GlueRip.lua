@@ -1,4 +1,3 @@
-@noindex
 @description GlueRip
 @version 0.0.1
 @author nodzsound
