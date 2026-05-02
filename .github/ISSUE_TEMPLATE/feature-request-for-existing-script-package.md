@@ -1,14 +1,14 @@
 ---
 name: Feature request for existing script package
 about: Suggest an idea for this project
-title: ''
+title: "[FEATURE] Title"
 labels: ''
 assignees: nodzsound
 
 ---
 
 **Which script or script package will you refer to?**
-Add the package name [e.g. Gluerip, Copy Item Properties] or the precise name of the script [e.g. nodzsound-Toggle_Track_Lock] you are refering to.
+Please use the tag with the name of the package you are refering to in the tags section below.
 
 **Summary**
 Describe in 1-2 sentences, what feature you would like to request. 

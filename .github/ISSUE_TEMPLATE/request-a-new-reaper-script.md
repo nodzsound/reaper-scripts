@@ -1,8 +1,8 @@
 ---
 name: Request a new Reaper Script
 about: Tell me about your ideas for new Reaper scripts.
-title: Reaper Script Idea
-labels: ''
+title: "[NEW SCRIPT] Title"
+labels: New Script Idea
 assignees: nodzsound
 
 ---
