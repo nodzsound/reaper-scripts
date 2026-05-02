@@ -1,38 +1,25 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Thank you for reporting a bug. Please enter as many details as possible.
 title: ''
 labels: ''
-assignees: ''
+assignees: nodzsound
 
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+Please describe your bug and any helpful context here. 
 
 **To Reproduce**
-Steps to reproduce the behavior:
+Please add steps to reproduce the bug like this:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**System (please complete the following information):**
+ - OS: [e.g. Win11 or macOS 15 Sequoia]
+ - Reaper Version: [e.g. 7.67]
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
