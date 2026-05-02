@@ -91,6 +91,49 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 nodzsound - Reaper Scripts\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This repository contains a number of reaper scripts that help me to work more effective in Reaper. Some of these scripts were suggestions by members of the audio community https://airwiggles.com. May those scripts be helpful to you.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 01 - Installation\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 1: Install reapack\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Install the reapack extension for Reaper from {\field{\*\fldinst{HYPERLINK "https://reapack.com/"}}{\fldrslt{\ul
+here
+}}}
+.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 2: Add the repository to reapack\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open the menu item 'Extensions -> ReaPack ->ManageRepositories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Navigate to 'Import/export -> Import repositories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Add this Url: https://github.com/nodzsound/reaper-scripts/raw/master/index.xml\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Now the repository "nodzsound - Reaper Scripts" should appear in your repository list\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 3: Download Scripts\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Rightclick with your mouse on the repository\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Set the option "Install new packages" to "When synchronizing". That way you will automatically get all new scripts and updates whenever you synchronize your ReaPack repositories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Close the repository manager\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Synchronize your ReaPack repositories via 'Extensions -> ReaPack -> Synchronize Packages\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 4: Verify\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open your action list and search for 'nodzsound'\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab All scripts from the repository should appear in your action list\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 02 - Included Script Features\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Copy Item Properties:} A collection of scripts to copy item properties from one item to another. The supported item properties are Item Length, Item Fade-In, Item Fade-Out, Take Pitch, and Take Playrate. Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/02-%E2%80%90-Package:-Copy-Item-Properties"}}{\fldrslt{\ul
+this page
+}}}
+ for more information.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Lock Tracks:} You can use these scripts to lock track controls, items, and the take selection of all selected tracks. This is more convenient than to switch the lock state of each track, item, and take manually and brings reapers lock features closer to other DAWs. Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/03-%E2%80%90-Package:-Lock-Tracks"}}{\fldrslt{\ul
+this page
+}}}
+ for more information.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Gluerip:} The GlueRip package enables you to rip previously glued items apart, by replacing the standard glue action and saving information about glued items in the project file. {\b Important:} This package is in its Alpha state. While basic functionalities for glue and rip should work, there is no guarantee that GlueRip won't break your reaper projects. I advise against using GlueRip in critical production environments at this time! Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/04-%E2%80%90-Package:-GlueRip"}}{\fldrslt{\ul
+this page
+}}}
+ for more information.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 03 - Feature Requests and new Script Ideas\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 You are missing a feature or you have an idea for a new script that would help your workflow and could be of use for other people as well? Please go to the {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/issues"}}{\fldrslt{\ul
+issues page
+}}}
+, hit the "New Issue" button and create a new ticket based on the templates for new features and scripts. Looking forward to your suggestions! :)\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b DISCLAIMER:} I will look into and consider all ideas and suggestions, but I cannot promise to build all of them. What gets build strongly depends on my availability, the scope of features, and whether I think that building it will be fun or useful. :)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 04 Bugs\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 You found a problem or unexpedted behavior? Head over to the {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/issues"}}{\fldrslt{\ul
+issues page
+}}}
+, hit the "New Issue" button, and use the Bug Report template to let me know.\par}
 }
 ]]></description>
   </metadata>
