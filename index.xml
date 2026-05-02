@@ -85,11 +85,11 @@
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 nodzsound - Reaper Scripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 nodzsound - Reaper Scripts\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This repository contains a number of reaper scripts that help me to work more effective in Reaper. Some of these scripts were suggestions by members of the audio community https://airwiggles.com. May those scripts be helpful to you.\par}
 }
 ]]></description>
