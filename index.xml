@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="nodzsound - Reaper Scripts" commit="9f6baa3207b229d9bc804dd8b8d240378883fe7e">
+<index version="1" name="nodzsound - Reaper Scripts" commit="838879e388f9d0a876f2751e7bc1dcf7230c55b7">
   <category name="Copy Item Properties">
     <reapack name="Copy Item Properties.lua" type="script" desc="Copy Item Properties">
       <metadata>
@@ -32,6 +32,30 @@
       </version>
     </reapack>
   </category>
+  <category name="GlueRip">
+    <reapack name="GlueRip.lua" type="script" desc="GlueRip">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This package offers you the possibility to unglue previously glued items. I hope that you find this package helpful. To report any bugs, please mail to: reapack@nico-dilz.com\par}
+}
+]]></description>
+        <link rel="website" href="https://nico-dilz.com">Website</link>
+        <link rel="website" href="https://www.instagram.com/nodzsound/">Instagram</link>
+        <link rel="website" href="https://www.linkedin.com/in/nodzsound/">LinkedIn</link>
+      </metadata>
+      <version name="0.0.1" author="nodzsound" time="2024-12-26T18:58:38Z">
+        <changelog><![CDATA[This is the first version of this script. It can carry out basic Glue and Rip functionalities]]></changelog>
+        <source main="main" file="nodzsound-GlueRip_Glue_Selected_Items.lua">https://github.com/nodzsound/reaper-scripts/raw/d74b2aa6ef587f4836c33eb2038e90a77bbbcbc1/GlueRip/nodzsound-GlueRip_Glue_Selected_Items.lua</source>
+        <source main="main" file="nodzsound-GlueRip_Rip_Selected_Items.lua">https://github.com/nodzsound/reaper-scripts/raw/d74b2aa6ef587f4836c33eb2038e90a77bbbcbc1/GlueRip/nodzsound-GlueRip_Rip_Selected_Items.lua</source>
+        <source file="json.lua">https://github.com/nodzsound/reaper-scripts/raw/d74b2aa6ef587f4836c33eb2038e90a77bbbcbc1/GlueRip/json.lua</source>
+        <source file="json_lua_License/LICENSE">https://github.com/nodzsound/reaper-scripts/raw/d74b2aa6ef587f4836c33eb2038e90a77bbbcbc1/GlueRip/json_lua_License/LICENSE</source>
+        <source file="json_lua_License/README.md">https://github.com/nodzsound/reaper-scripts/raw/d74b2aa6ef587f4836c33eb2038e90a77bbbcbc1/GlueRip/json_lua_License/README.md</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Lock Tracks">
     <reapack name="Lock Tracks.lua" type="script" desc="Lock Tracks">
       <metadata>
@@ -61,12 +85,55 @@
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 nodzsound - Reaper Scripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 nodzsound - Reaper Scripts\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This repository contains a number of reaper scripts that help me to work more effective in Reaper. Some of these scripts were suggestions by members of the audio community https://airwiggles.com. May those scripts be helpful to you.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 01 - Installation\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 1: Install reapack\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Install the reapack extension for Reaper from {\field{\*\fldinst{HYPERLINK "https://reapack.com/"}}{\fldrslt{\ul
+here
+}}}
+.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 2: Add the repository to reapack\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open the menu item 'Extensions -> ReaPack ->ManageRepositories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Navigate to 'Import/export -> Import repositories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Add this Url: https://github.com/nodzsound/reaper-scripts/raw/master/index.xml\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Now the repository "nodzsound - Reaper Scripts" should appear in your repository list\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 3: Download Scripts\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Rightclick with your mouse on the repository\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Set the option "Install new packages" to "When synchronizing". That way you will automatically get all new scripts and updates whenever you synchronize your ReaPack repositories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Close the repository manager\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Synchronize your ReaPack repositories via 'Extensions -> ReaPack -> Synchronize Packages\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel2 \b \fs28 Step 4: Verify\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Open your action list and search for 'nodzsound'\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab All scripts from the repository should appear in your action list\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 02 - Included Script Features\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Copy Item Properties:} A collection of scripts to copy item properties from one item to another. The supported item properties are Item Length, Item Fade-In, Item Fade-Out, Take Pitch, and Take Playrate. Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/02-%E2%80%90-Package:-Copy-Item-Properties"}}{\fldrslt{\ul
+this page
+}}}
+ for more information.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Lock Tracks:} You can use these scripts to lock track controls, items, and the take selection of all selected tracks. This is more convenient than to switch the lock state of each track, item, and take manually and brings reapers lock features closer to other DAWs. Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/03-%E2%80%90-Package:-Lock-Tracks"}}{\fldrslt{\ul
+this page
+}}}
+ for more information.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Gluerip:} The GlueRip package enables you to rip previously glued items apart, by replacing the standard glue action and saving information about glued items in the project file. {\b Important:} This package is in its Alpha state. While basic functionalities for glue and rip should work, there is no guarantee that GlueRip won't break your reaper projects. I advise against using GlueRip in critical production environments at this time! Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/04-%E2%80%90-Package:-GlueRip"}}{\fldrslt{\ul
+this page
+}}}
+ for more information.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 03 - Feature Requests and new Script Ideas\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 You are missing a feature or you have an idea for a new script that would help your workflow and could be of use for other people as well? Please go to the {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/issues"}}{\fldrslt{\ul
+issues page
+}}}
+, hit the "New Issue" button and create a new ticket based on the templates for new features and scripts. Looking forward to your suggestions! :)\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b DISCLAIMER:} I will look into and consider all ideas and suggestions, but I cannot promise to build all of them. What gets build strongly depends on my availability, the scope of features, and whether I think that building it will be fun or useful. :)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 04 Bugs\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 You found a problem or unexpedted behavior? Head over to the {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/issues"}}{\fldrslt{\ul
+issues page
+}}}
+, hit the "New Issue" button, and use the Bug Report template to let me know.\par}
 }
 ]]></description>
   </metadata>
