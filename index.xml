@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="nodzsound - Reaper Scripts" commit="838879e388f9d0a876f2751e7bc1dcf7230c55b7">
+<index version="1" name="nodzsound - Reaper Scripts" commit="da4d53370b8d5074813a393386fc819759c8dc10">
   <category name="Copy Item Properties">
     <reapack name="Copy Item Properties.lua" type="script" desc="Copy Item Properties">
       <metadata>
@@ -84,6 +84,40 @@
       </version>
     </reapack>
   </category>
+  <category name="Personal Utilities">
+    <reapack name="Personal Utilities.lua" type="script" desc="Personal Utilities">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This package contains some utility scripts I created for myself and that are convenient to have in this repository for cross device sync. Use them if you like.\par}
+}
+]]></description>
+        <link rel="website" href="https://nico-dilz.com">Website</link>
+        <link rel="website" href="https://www.instagram.com/nodzsound/">Instagram</link>
+        <link rel="website" href="https://www.linkedin.com/in/nodzsound/">LinkedIn</link>
+      </metadata>
+      <version name="1.0.0" author="nodzsound" time="2026-07-03T09:01:20Z">
+        <source main="main">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/Personal%20Utilities.lua</source>
+        <source main="main" file="nodz-ChangePlayrate_ForSelectedItemTakesBy_-100pct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ChangePlayrate_ForSelectedItemTakesBy_-100pct.lua</source>
+        <source main="main" file="nodz-ChangePlayrate_ForSelectedItemTakesBy_-10pct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ChangePlayrate_ForSelectedItemTakesBy_-10pct.lua</source>
+        <source main="main" file="nodz-ChangePlayrate_ForSelectedItemTakesBy_-1pct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ChangePlayrate_ForSelectedItemTakesBy_-1pct.lua</source>
+        <source main="main" file="nodz-ChangePlayrate_ForSelectedItemTakesBy_100pct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ChangePlayrate_ForSelectedItemTakesBy_100pct.lua</source>
+        <source main="main" file="nodz-ChangePlayrate_ForSelectedItemTakesBy_10pct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ChangePlayrate_ForSelectedItemTakesBy_10pct.lua</source>
+        <source main="main" file="nodz-ChangePlayrate_ForSelectedItemTakesBy_1pct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ChangePlayrate_ForSelectedItemTakesBy_1pct.lua</source>
+        <source main="main" file="nodz-ResetPlayrate_ForSelectedItemTakes.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ResetPlayrate_ForSelectedItemTakes.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_-10ct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_-10ct.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_-1ct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_-1ct.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_-1oct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_-1oct.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_-1st.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_-1st.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_10ct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_10ct.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_1ct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_1ct.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_1oct.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_1oct.lua</source>
+        <source main="main" file="nodz-ShiftPitch_ForSelectedItemTakesBy_1st.lua">https://github.com/nodzsound/reaper-scripts/raw/e720de11a0b66bb55baf6542ed7d964797f8b7c2/Personal%20Utilities/nodz-ShiftPitch_ForSelectedItemTakesBy_1st.lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -122,7 +156,8 @@ this page
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Gluerip:} The GlueRip package enables you to rip previously glued items apart, by replacing the standard glue action and saving information about glued items in the project file. {\b Important:} This package is in its Alpha state. While basic functionalities for glue and rip should work, there is no guarantee that GlueRip won't break your reaper projects. I advise against using GlueRip in critical production environments at this time! Visit {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/wiki/04-%E2%80%90-Package:-GlueRip"}}{\fldrslt{\ul
 this page
 }}}
- for more information.\sa180\par}
+ for more information.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\b Personal Utilities:} A collection of small utility scripts that I created for myself and are convenient to have in this repository so that I can sync them between my devices. Use them if you like.\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 03 - Feature Requests and new Script Ideas\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 You are missing a feature or you have an idea for a new script that would help your workflow and could be of use for other people as well? Please go to the {\field{\*\fldinst{HYPERLINK "https://github.com/nodzsound/reaper-scripts/issues"}}{\fldrslt{\ul
 issues page
