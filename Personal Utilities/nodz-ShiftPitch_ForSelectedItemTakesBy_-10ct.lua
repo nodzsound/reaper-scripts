@@ -1,4 +1,3 @@
-
 -- @noindex
 --[[
   * ReaScript Name: Shift the pitch of all selected items up by 1ct

@@ -6,7 +6,7 @@
      Instagram https://www.instagram.com/nodzsound/
      LinkedIn https://www.linkedin.com/in/nodzsound/    
 @about
-This package contains some utility scripts I created for myself and that are convenient to have in this repository for cross device sync. Use them if you like. 
+     This package contains some utility scripts I created for myself and that are convenient to have in this repository for cross device sync. Use them if you like. 
 @provides
      [main] nodz-ChangePlayrate_ForSelectedItemTakesBy_-100pct.lua
      [main] nodz-ChangePlayrate_ForSelectedItemTakesBy_-10pct.lua
